@@ -1,0 +1,19 @@
+{
+  "name": "Underscore",
+  "version": "1.0.0",
+  "description": "Underscore examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Underscore"
+  ],
+  "author": "Doug Duril",
+  "license": "ISC",
+  "dependencies": {
+    "jquery": "^2.1.4",
+    "underscore": "^1.8.3",
+    "bootstrap": "^3.3.5"
+  }
+}
