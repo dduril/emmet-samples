@@ -39,8 +39,7 @@
     &lt;body&gt;
     
     &lt;/body&gt;
-  &lt;/html&gt;
-    </pre>
+  &lt;/html&gt;</pre>
     
     <p>Once the basic page structure has been generated, additional HTML elements and structures can be quickly generated using Emmet.</p>
     
@@ -57,27 +56,111 @@
             <li>And another p of 10 words of lorem ipsum</li>
         </ul>
     
+    <p>This would be coded in Emmet like this:</p>
     <p><code>
   div#container>h1.header1+h2.header2+p>lorem10^ul>li*5>a^^p>lorem10
-    </code></p>
+    </code>[tab key]</p>
     
     <pre>
-    &lt;div id="container"&gt;
-        &lt;h1 class="header1"&gt;&lt;/h1&gt;
-        &lt;h2 class="header2"&gt;&lt;/h2&gt;
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, in!&lt;/p&gt;
-        &lt;ul&gt;
-            &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
-            &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
-        &lt;/ul&gt;
-        &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, dolores.&lt;/p&gt;
-    &lt;/div&gt;
-    </pre>
+  &lt;div id="container"&gt;
+    &lt;h1 class="header1"&gt;&lt;/h1&gt;
+    &lt;h2 class="header2"&gt;&lt;/h2&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, in!&lt;/p&gt;
+    &lt;ul&gt;
+      &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;&lt;a href=""&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+    &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, dolores.&lt;/p&gt;
+  &lt;/div&gt;</pre>
             </div>
         </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h2>HTML5 Examples</h2>
+                
+                <p><strong>Header</strong></p>
+                <p><code>header#header>nav#nav>ul>li*4>a.nav-link</code></p>    
+                <pre>
+  &lt;header id="header"&gt;
+    &lt;nav id="nav"&gt;
+      &lt;ul&gt;
+        &lt;li&gt;&lt;a href="" class="nav-link"&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="" class="nav-link"&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="" class="nav-link"&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="" class="nav-link"&gt;&lt;/a&gt;&lt;/li&gt;
+      &lt;/ul&gt;
+    &lt;/nav&gt;
+  &lt;/header&gt;</pre>
+           
+            
+               <p><strong>Section</strong></p>
+               <p><code>section.section>article.article>header.header+p</code></p>
+               <pre>
+  &lt;section class="section"&gt;
+    &lt;article class="article"&gt;
+      &lt;header class="header"&gt;&lt;/header&gt;
+      &lt;p&gt;&lt;/p&gt;
+    &lt;/article&gt;
+  &lt;/section&gt;</pre>
+               
+               <p><strong>Aside</strong></p>
+               <p><code>aside.aside>h2+p</code></p>
+               <pre>
+  &lt;aside class="aside"&gt;
+    &lt;h2>&lt;/h2&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/aside&gt;</pre>
+               
+               <p><strong>Footer</strong></p>
+               <p><code>footer#footer>p</code></p>
+               <pre>
+  &lt;footer id="footer"&gt;
+    &lt;p&gt;&lt;/p&gt;
+  &lt;/footer&gt;</pre>
+               
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h2>Bootstrap Examples</h2>
+                
+                <p><strong>Container and Row</strong></p>
+                <p><code>div.container-fluid>div.row>div.col-md-4+div.col-md-8</code></p>    
+                <pre>
+  &lt;div class="container-fluid"&gt;
+    &lt;div class="row"&gt;
+      &lt;div class="col-md-4"&gt;&lt;/div&gt;
+      &lt;div class="col-md-8"&gt;&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;</pre>
+                
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col-md-12">
+                <h2>A Few More Examples</h2>
+                
+                <p><strong>Lorem Ipsum Generators</strong></p>
+                <p><code></code></p>    
+                <pre></pre>
+                
+                <p><strong>Ordered and Unordered Lists</strong></p>
+                <p><code></code></p>    
+                <pre></pre>
+                
+                <p><strong>Blog Template</strong></p>
+                <p><code></code></p>    
+                <pre></pre>
+                
+            </div>
+        </div>
+        
     </div>
     
     
