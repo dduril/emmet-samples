@@ -3,15 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <title>Emmet Practice</title>
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
-
-    <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap-theme.min.css">
-
     <link href="app/css/custom.css" rel="stylesheet">
-
-    <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 </head>
 <body>
@@ -23,11 +17,11 @@
     
     <p>The markup for this page was created using <a href="http://emmet.io/" target="_blank"><strong>Emmet</strong></a>.</p> 
     
-    <p>For starters, this is all that was required to create the HTML structure for this page.</p>
+    <p>For starters, this is all that was required to create the beginning HTML5 structure for this page.</p>
     
     <p><code>html:5</code></p>
     
-    <p>Typing this into Brackets and hitting the <code>tab</code> key, will result in the following HTML5 template being rendered:</p>
+    <p>Typing this into Brackets and hitting the <code>tab</code> key, results in the following HTML5 template being rendered:</p>
     
     <pre>
   &lt;!DOCTYPE html&gt;
@@ -41,19 +35,22 @@
     &lt;/body&gt;
   &lt;/html&gt;</pre>
     
-    <p>Once the basic page structure has been generated, additional HTML elements and structures can be quickly generated using Emmet.</p>
+    <p>Once the basic page structure has been generated, additional HTML elements and structures can be quickly generated using Emmet. The remainder of this page showcases several basic, advanced and Bootstrap-centric examples diplaying the Emmet code and then the created HTML snippet.</p>
+    
+    <hr />
     
     <p>There are a quick Emmet shortcuts for generating HTML for headers, divs, paragraphs, lists, tables, etc. But, the real power comes from stringing several of the shortcuts together. For example, the 
-    following, somewhat advanced example basically says "I want to generate some HTML that has:</p>
+    following might be the requirements for a chunk of HTML that needs to be quickly spun up for a real project or just for tinkering.</p>
     
+       <p>The requirements are:</p>
         <ul>
             <li>A div with an id of 'container'</li>
             <li>With a h1 with a class of 'header1'</li>
-            <li>With a h2 with a class of 'header2'</li>
-            <li>With a p with 10 words of lorem ipsum</li>
+            <li>With a sibling h2 with a class of 'header2'</li>
+            <li>With a sibling p with 10 words of lorem ipsum</li>
             <li>With an unordered list</li>
             <li>Containing five list items, each with a hyperlink</li>
-            <li>And another p of 10 words of lorem ipsum</li>
+            <li>And another p of 10 words of lorem ipsum at the level of the first p</li>
         </ul>
     
     <p>This would be coded in Emmet like this:</p>
