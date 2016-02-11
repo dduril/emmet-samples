@@ -1,8 +1,8 @@
 {
-  "name": "Underscore",
+  "name": "Emmet",
   "version": "1.0.0",
-  "description": "Underscore examples",
-  "main": "index.js",
+  "description": "Emmet Examples",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -13,7 +13,6 @@
   "license": "ISC",
   "dependencies": {
     "jquery": "^2.1.4",
-    "underscore": "^1.8.3",
     "bootstrap": "^3.3.5"
   }
 }
