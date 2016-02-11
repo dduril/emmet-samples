@@ -70,3 +70,24 @@ Result:
 		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Incidunt, dolores.</p>
 	</div>
 
+**Another example using Groups**
+
+In this example, the parenthesis are wrapped around groups of expressions to keep them at the same level.
+
+	div.wrapper>div.header(h1+h2+p)+(ul>li*3)+div.footer
+
+Result:
+
+	<div class="wrapper">
+		<div class="header">
+			<h1></h1>
+			<h2></h2>
+			<p></p>
+		</div>
+		<ul>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+		<div class="footer"></div>
+	</div>
