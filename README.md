@@ -36,6 +36,17 @@ Typing this into Brackets and hitting the tab key, results in the following HTML
 		</body>
 	</html>
 
+## Generate lorem ipsum
+
+Generate a div with 5 paragraphs, each with 100 words of lorem ipsum.
+
+	div>(p>lorem100)*5
+
+Generate an un-ordered list with 5 list items, each with 10 words of lorem ipsum.
+
+	ul>(li>lorem10)*5
+
+
 ## A More Elaborate Example:
 
 There are a quick Emmet shortcuts for generating HTML for headers, divs, paragraphs, lists, tables, etc. But, the real power comes from stringing several of the shortcuts together. For example, the following might be the requirements for a chunk of HTML that needs to be quickly spun up for a real project or just for tinkering.
