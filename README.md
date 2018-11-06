@@ -2,8 +2,7 @@
 
 Boostrap site showcasing samples of using Emmet to quickly generate HTML templates and snippets.
 
-Built using npm for installing and managing Bootstrap, jQuery and Underscore.js libraries and hand-coded using the 
-Brackets open-source code editor.
+Built using npm for resource management - Bootstrap, jQuery, Underscore.js and coded using Brackets.
 
 **Tools Required:**
 
